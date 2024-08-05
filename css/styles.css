@@ -47,6 +47,7 @@ img {
 .header {
     padding-top: 24px;
         padding-bottom: 24px;
+        border-bottom: 1px solid #e7e9fc;
         
 }
 .header-container {
@@ -62,6 +63,7 @@ img {
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: #4d5ae5;
+        margin-right: 76px;
 }
 
 .logo-span {
@@ -76,6 +78,7 @@ img {
 
 .nav {
     display: flex;
+    align-items: center;
 }
 
 .menu {
@@ -91,6 +94,7 @@ img {
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #2e2f42;
+        padding: 24px 0 24px;
 }
 .menu-link:hover,
 .menu-link:focus {
@@ -127,8 +131,7 @@ img {
 /* #region hero */
 .hero {
     background-color: #2e2f42;
-    padding-top: 188px;
-    padding-bottom: 292px;
+    padding: 188px 0 188px;
 }
 
 .hero-title {
@@ -209,7 +212,9 @@ padding-bottom: 120px;
             padding-bottom: 120px;
 }
 
-
+.team-title-paragraph {
+    padding: 32px 0 32px;
+}
 .our-team-title {
 font-weight: 700;
     font-size: 36px;
@@ -220,6 +225,7 @@ font-weight: 700;
     color: #2e2f42;
     padding-top: 32px;
         padding-bottom: 32px;
+        margin-bottom: 72px;
 }
 
 .our-team-list {
@@ -247,6 +253,8 @@ font-weight: 700;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    text-align: center;
+    margin-bottom: 8px;
     
 }
 .paragraph-our-team {
@@ -256,11 +264,15 @@ font-weight: 700;
         letter-spacing: 0.02em;
         text-align: center;
         color: #434455;
+        text-align: center;
 }
 /* #endregion section our team */
 
 /* #region section our portfolio */
 
+.portfolio {
+    padding: 120px 0 120px 0;
+}
 .our-portfolio {
     font-weight: 700;
         font-size: 36px;
@@ -269,6 +281,12 @@ font-weight: 700;
         text-align: center;
         text-transform: capitalize;
         color: #2e2f42;
+        margin-bottom: 72px;
+}
+.card {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
 }
 .portfolio-list {
     display: flex;
@@ -290,6 +308,7 @@ font-weight: 700;
         line-height: 1.2;
         letter-spacing: 0.02em;
         color: #2e2f42;
+        margin-bottom: 8px;
 }
 .paragraph-our-portfolio {
     /* padding: 0 0 32px 16px; */
@@ -306,6 +325,7 @@ font-weight: 700;
 
 .footer {
     background-color: #2e2f42;
+    padding: 100px 0 100px;
 }
 
 .logo-footer {
@@ -317,6 +337,7 @@ font-family: "Raleway", sans-serif;
     text-transform: uppercase;
     color: #4d5ae5;
     display: inline-block;
+    margin-bottom: 16px;
     
 }
 .logo-span-footer {
@@ -335,6 +356,7 @@ font-family: "Raleway", sans-serif;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #f4f4fd;
+        max-width: 264px;
 }
 /* #endregion footer */
 
